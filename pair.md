@@ -1,9 +1,9 @@
-#Pair 
+# Pair 
 
-##Copying a site
+## Copying a site
 ### Wordpress 
 
-####Files 
+#### Files 
 
 1. In Pair admin, set up new domain name for development site
 2. Get access to the Pair account.
@@ -14,7 +14,7 @@
 7. The files are now likely one level too deep. To move up a level, use `mv nameOfZipFile/* .`
 8. You must now change the contents of the `wp-config.php` file, based on a new database.
 
-####Databases
+#### Databases
 1. In Pair admin, navigate to "Manage Your Databases"
 2. Go into the production database (if you do not know which one is attached to the production site, you can see it by accessing the server and looking in the 'wp-config.php' file for the production site.
 3. Using PhPMyAdmin, log into the production database and click on 'export'
